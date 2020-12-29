@@ -1,0 +1,51 @@
+:root{
+    --maincolor: rgb(126, 6, 6);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    min-height: 540px;
+}
+.cabecera_info{
+    height: 40px;
+    background-color: var(--maincolor);
+}
+.cabecera_imagen{
+    background-image: url("../img/portada.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    min-height: 500px;
+    width: 100%;
+}
+nav{
+    min-height: 60px;
+}
+.lista_menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+    .lista_menu > li{
+        padding: 20px;
+        font-size: 1.6em;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    .lista_menu a{
+        color: rgb(233, 188, 43);
+        text-decoration: none;
+    }
+main{
+    background-color: rgb(241, 222, 133);
+    min-height: 900px;
+    background-image: linear-gradient(rgb(255, 255, 0), rgb(255, 0, 0));
+    opacity: 0.8;
+}
+footer{
+    min-height: 80px;
+    background-color: rgb(31, 1, 1);
+}
